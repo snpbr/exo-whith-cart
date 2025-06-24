@@ -6,10 +6,11 @@ reset page
 }
 
  body {
-  background: #fdf7f3;
+  background: #f2d8c7;
   font-family: 'Inter', Arial, sans-serif;
   color: #23180d;
   padding: 40px;
+  
 }
 
 .main-layout {
@@ -20,7 +21,7 @@ reset page
   margin: 40px auto;
   background: #fff;
   border-radius: 20px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.06);
+  box-shadow: 5px 5px 20px 5px rgba(76, 73, 73, 0.27);
   padding: 48px;
 }
 /* Colonne des desserts */
@@ -45,7 +46,7 @@ reset page
 }
 
 .img-container {
-  position: relative;
+  /* position: absolute; */
   width: 260px;
   height: 140px;
   margin-bottom: 12px;
@@ -57,7 +58,7 @@ reset page
   border-radius: 10px;
   margin-bottom: 10px;
   border: 1px solid #f0c;
-  display: block;
+  /* display: block; */
 }
 .main-title {
   font-size: 2rem;
@@ -84,61 +85,24 @@ reset page
   font-weight: bold;
 }
 .add {
- position: absolute;
- left: 18%;
-  padding: 7px 18px;
+ padding: 7px 18px;
   border: 1px solid #d7a86e;
   border-radius: 22px;
-  background: #fff;
-  color: #000000;
-  font-weight: 600;
+  font-weight: bold;
   cursor: pointer;
-  margin-top: 8px;
-  
-
-}
+   
+  }
 
 .add:hover {
   background: #8d0000ca;
   color: #ffffff;
 }
 /* Panier */
-.cart-section {
-  flex: 1;
-  background: #fff;
-  border-radius: 18px;
-  box-shadow: 0 2px 8px rgba(80, 62, 38, 0.06);
-  padding: 28px 24px;
-  min-width: 280px;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
 
-.cart-section h2 {
-  color: #b26e2c;
-  font-size: 1.3rem;
-  margin-bottom: 18px;
-}
-.cart-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 18px 0;
-}
-.cart-section ul li {
-  margin-bottom: 14px;
-  font-size: 1rem;
-  display: flex;
-  justify-content: space-between;
-}
-.cart-section ul li span {
-  color: #b26e2c;
-  font-size: 0.95rem;
-}
 .total {
   display: flex;
   justify-content: space-between;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -150,9 +114,9 @@ reset page
   color: #fff;
   border: none;
   border-radius: 22px;
-  padding: 12px 0;
-  font-size: 1.08rem;
-  font-weight: 600;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
   cursor: pointer;
   transition: background 0.2s;
 }
